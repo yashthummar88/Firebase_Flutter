@@ -11,7 +11,11 @@ class _HomePageScreenState extends State<HomePageScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: Container(
+        child: Column(
+          children: [],
+        ),
+      ),
     );
   }
 }
