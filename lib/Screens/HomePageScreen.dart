@@ -13,7 +13,13 @@ class _HomePageScreenState extends State<HomePageScreen> {
     return Scaffold(
       body: Container(
         child: Column(
-          children: [],
+          children: [
+            Container(
+              color: Colors.red,
+              height: 100,
+              width: 200,
+            ),
+          ],
         ),
       ),
     );
